@@ -374,6 +374,10 @@
                                 <span class="chip bg-color">集合</span>
                             </a>
                         
+                            <a href="/tags/%E5%AD%97%E5%85%B8/">
+                                <span class="chip bg-color">字典</span>
+                            </a>
+                        
                             <a href="/tags/%E6%A0%91/">
                                 <span class="chip bg-color">树</span>
                             </a>
@@ -408,14 +412,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.6k
+                    1.7k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    7 分
+                    8 分
                 </div>
                 
 
@@ -515,8 +519,33 @@ mySet<span class="token punctuation">.</span><span class="token function">delete
 
 </li>
 </ul>
-<h4 id="树"><a href="#树" class="headerlink" title="树"></a>树</h4><hr>
+<h4 id="字典"><a href="#字典" class="headerlink" title="字典"></a>字典</h4><hr>
 <h5 id="要点："><a href="#要点：" class="headerlink" title="要点："></a>要点：</h5><ul>
+<li>与集合类似，字典也是一种存储唯一值的数据结构，但是它是以<strong>键值对</strong>的形式来存储</li>
+<li>ES6中有字典的数据结构，名为Map</li>
+<li>字典的常用操作：键值对的增删改查</li>
+</ul>
+<h5 id="字典的常用操作"><a href="#字典的常用操作" class="headerlink" title="字典的常用操作"></a>字典的常用操作</h5><pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token comment">//创建一个字典</span>
+<span class="token keyword">const</span> m <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Map</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">//增</span>
+m<span class="token punctuation">.</span><span class="token function">set</span><span class="token punctuation">(</span><span class="token string">'a'</span><span class="token punctuation">,</span><span class="token string">'b'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">//查</span>
+m<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'a'</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//'b'</span>
+m<span class="token punctuation">.</span><span class="token function">has</span><span class="token punctuation">(</span><span class="token string">'a'</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//true</span>
+
+<span class="token comment">//删</span>
+m<span class="token punctuation">.</span><span class="token function">delete</span><span class="token punctuation">(</span><span class="token string">'a'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">//清除字典中所有的键值对</span>
+m<span class="token punctuation">.</span><span class="token function">clear</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">//改</span>
+m<span class="token punctuation">.</span><span class="token function">set</span><span class="token punctuation">(</span><span class="token string">'a'</span><span class="token punctuation">,</span><span class="token string">'c'</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+<h4 id="树"><a href="#树" class="headerlink" title="树"></a>树</h4><hr>
+<h5 id="要点：-1"><a href="#要点：-1" class="headerlink" title="要点："></a>要点：</h5><ul>
 <li>一种分层数据的抽象模型</li>
 <li>前端工作中常见的树包括：DOM树、级联选择、树形空间……</li>
 <li>JS中没有树，但是可以用Object和Array构建树。</li>
@@ -919,6 +948,10 @@ mySet<span class="token punctuation">.</span><span class="token function">delete
                                     <span class="chip bg-color">集合</span>
                                 </a>
                             
+                                <a href="/tags/%E5%AD%97%E5%85%B8/">
+                                    <span class="chip bg-color">字典</span>
+                                </a>
+                            
                                 <a href="/tags/%E6%A0%91/">
                                     <span class="chip bg-color">树</span>
                                 </a>
@@ -1241,7 +1274,7 @@ mySet<span class="token punctuation">.</span><span class="token function">delete
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            堆、排序与搜索
+                            堆、图、排序与搜索
                         
                     </div>
                     <div class="publish-info">
@@ -1265,6 +1298,10 @@ mySet<span class="token punctuation">.</span><span class="token function">delete
                     
                     <a href="/tags/%E5%A0%86/">
                         <span class="chip bg-color">堆</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%9B%BE/">
+                        <span class="chip bg-color">图</span>
                     </a>
                     
                     <a href="/tags/%E6%8E%92%E5%BA%8F%E4%B8%8E%E6%90%9C%E7%B4%A2/">
@@ -1527,7 +1564,7 @@ mySet<span class="token punctuation">.</span><span class="token function">delete
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">31.4k</span>&nbsp;字
+                class="white-color">33.7k</span>&nbsp;字
             
             
             
